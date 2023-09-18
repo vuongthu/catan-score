@@ -15,6 +15,7 @@
 		018A9D432AB3CCD600BA6114 /* CatanScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A9D422AB3CCD600BA6114 /* CatanScoreUITests.swift */; };
 		018A9D452AB3CCD600BA6114 /* CatanScoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A9D442AB3CCD600BA6114 /* CatanScoreUITestsLaunchTests.swift */; };
 		018A9D532AB8CC6700BA6114 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A9D522AB8CC6700BA6114 /* Theme.swift */; };
+		018A9D552AB8F57400BA6114 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A9D542AB8F57400BA6114 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		018A9D422AB3CCD600BA6114 /* CatanScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatanScoreUITests.swift; sourceTree = "<group>"; };
 		018A9D442AB3CCD600BA6114 /* CatanScoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatanScoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		018A9D522AB8CC6700BA6114 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		018A9D542AB8F57400BA6114 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				018A9D522AB8CC6700BA6114 /* Theme.swift */,
+				018A9D542AB8F57400BA6114 /* Player.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018A9D552AB8F57400BA6114 /* Player.swift in Sources */,
 				018A9D532AB8CC6700BA6114 /* Theme.swift in Sources */,
 				018A9D2A2AB3CCD500BA6114 /* ContentView.swift in Sources */,
 				018A9D282AB3CCD500BA6114 /* CatanScoreApp.swift in Sources */,

@@ -14,6 +14,7 @@
 		018A9D392AB3CCD600BA6114 /* CatanScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A9D382AB3CCD600BA6114 /* CatanScoreTests.swift */; };
 		018A9D432AB3CCD600BA6114 /* CatanScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A9D422AB3CCD600BA6114 /* CatanScoreUITests.swift */; };
 		018A9D452AB3CCD600BA6114 /* CatanScoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A9D442AB3CCD600BA6114 /* CatanScoreUITestsLaunchTests.swift */; };
+		018A9D532AB8CC6700BA6114 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A9D522AB8CC6700BA6114 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		018A9D3E2AB3CCD600BA6114 /* CatanScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatanScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		018A9D422AB3CCD600BA6114 /* CatanScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatanScoreUITests.swift; sourceTree = "<group>"; };
 		018A9D442AB3CCD600BA6114 /* CatanScoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatanScoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		018A9D522AB8CC6700BA6114 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		018A9D262AB3CCD500BA6114 /* CatanScore */ = {
 			isa = PBXGroup;
 			children = (
+				018A9D512AB8CBAB00BA6114 /* Models */,
 				018A9D272AB3CCD500BA6114 /* CatanScoreApp.swift */,
 				018A9D292AB3CCD500BA6114 /* ContentView.swift */,
 				018A9D2B2AB3CCD600BA6114 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				018A9D442AB3CCD600BA6114 /* CatanScoreUITestsLaunchTests.swift */,
 			);
 			path = CatanScoreUITests;
+			sourceTree = "<group>";
+		};
+		018A9D512AB8CBAB00BA6114 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				018A9D522AB8CC6700BA6114 /* Theme.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018A9D532AB8CC6700BA6114 /* Theme.swift in Sources */,
 				018A9D2A2AB3CCD500BA6114 /* ContentView.swift in Sources */,
 				018A9D282AB3CCD500BA6114 /* CatanScoreApp.swift in Sources */,
 			);

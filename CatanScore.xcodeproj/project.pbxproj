@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015CE9F52ABB42100074E929 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015CE9F42ABB42100074E929 /* PlayerView.swift */; };
 		018A9D282AB3CCD500BA6114 /* CatanScoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A9D272AB3CCD500BA6114 /* CatanScoreApp.swift */; };
 		018A9D2A2AB3CCD500BA6114 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A9D292AB3CCD500BA6114 /* ContentView.swift */; };
 		018A9D2C2AB3CCD600BA6114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018A9D2B2AB3CCD600BA6114 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015CE9F42ABB42100074E929 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		018A9D242AB3CCD500BA6114 /* CatanScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatanScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		018A9D272AB3CCD500BA6114 /* CatanScoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatanScoreApp.swift; sourceTree = "<group>"; };
 		018A9D292AB3CCD500BA6114 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				018A9D292AB3CCD500BA6114 /* ContentView.swift */,
 				018A9D2B2AB3CCD600BA6114 /* Assets.xcassets */,
 				018A9D2D2AB3CCD600BA6114 /* Preview Content */,
+				015CE9F42ABB42100074E929 /* PlayerView.swift */,
 			);
 			path = CatanScore;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				018A9D552AB8F57400BA6114 /* Player.swift in Sources */,
 				018A9D532AB8CC6700BA6114 /* Theme.swift in Sources */,
 				018A9D2A2AB3CCD500BA6114 /* ContentView.swift in Sources */,
+				015CE9F52ABB42100074E929 /* PlayerView.swift in Sources */,
 				018A9D282AB3CCD500BA6114 /* CatanScoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
